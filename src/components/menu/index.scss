@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:global {
+  #nav {
+    border-width: 0;
+    float: left;
+    & > li {
+      height: 79px;
+      line-height: 80px;
+      margin: 0 20px;
+      box-sizing: border-box;
+    }
+    .link {
+      display: inline-block;
+    }
+    .ant-menu-item-selected {
+      .link {
+        color: #108ee9;
+      }
+    }
+  }
+
+}

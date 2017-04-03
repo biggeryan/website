@@ -1,0 +1,39 @@
+.user_wrap {
+  float: right;
+  a, span {
+    margin: 0 5px;
+  }
+  span {
+
+  }
+}
+
+.register_wrap, .login_wrap {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #FFF;
+  margin-top: 100px;
+  padding: 20px;
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.login_wrap {
+  width: 400px;
+}
+
+.login_form {
+  //max-width: 300px;
+}
+.login_form_forgot {
+  float: right;
+}
+.login_form_button {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}

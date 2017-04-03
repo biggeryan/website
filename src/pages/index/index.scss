@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+$height: 300px;
+.wrap {
+  background-color: #FFF;
+}
+.carousel {
+  height: $height;
+  background-color: #F6F8FB;
+}
+.slide {
+  height: $height;
+}
+.section {
+  max-width: 1208px;
+  margin: 0 auto;
+  color: #555;
+  padding-bottom: 50px;
+}
+.section_title {
+  margin: 50px 0;
+  text-align: center;
+}
+.reason_item {
+  line-height: 24px;
+  text-align: center;
+  padding: 0 45px;
+}
+.reason_img {
+  img {
+    width: 115px;
+    height: 105px;
+    margin: 0;
+  }
+}
+.reason_title {
+  color: #222;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.reason_description {
+  margin-top: 24px;
+  color: #888;
+  font-size: 14px;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html, body {
+  height: 100%;
+}
+
+:global {
+  .ant-layout-header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFF;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+  }
+  .ant-menu-horizontal {
+    border-width: 0;
+  }
+}
+
+$height: 50px;
+.logo {
+  float: left;
+  height: $height;
+  margin-top: (80 - $height) / 2;
+  width: 120px;
+  background: #000;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0 35px;
+}
+

@@ -1,0 +1,75 @@
+.wrap {
+  width: 1200px;
+  padding: 55px 0 30px 0;
+  margin: 0 auto;
+}
+.title {
+  font-weight: bold;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #222;
+}
+.product {
+  text-align: center;
+  color: #FFF;
+  height: 345px;
+  margin: 25px 20px;
+  position: relative;
+  background-image: url(../../assets/images/building.jpeg);
+  background-size: cover;
+  &:hover {
+    .mask {
+      display: block;
+      opacity: .3;
+    }
+    .tip {
+      opacity: 1;
+      height: 100px;
+    }
+  }
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.tip {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #108ee9;
+  z-index: 5;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  overflow: hidden;
+}
+.product_name {
+  text-align: center;
+  line-height: 40px;
+  color: #FFF;
+  font-size: 14px;
+
+}
+.operate {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  line-height: 30px;
+  margin: 10px 20px;
+  padding: 0 8px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+}
+.loading_hidden {
+  display: none;
+}
